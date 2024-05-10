@@ -3,6 +3,11 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+bin/**
+*.log
+
+# Java class files
+*.class
 
 ### STS ###
 .apt_generated
@@ -31,3 +36,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# OSX leaves these everywhere on SMB shares
+._*
+
+# OSX trash
+.DS_Store
